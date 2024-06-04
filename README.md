@@ -1,5 +1,7 @@
 Bill Splitting API
+
 Overview
+
 This FastAPI-based application is designed to help users manage and split bills among participants. The application allows users to create bill lists, add participants, record transactions, and calculate balances to ensure fair splitting of costs.
 
 Features
@@ -10,6 +12,7 @@ Features
 	Calculating Balances among Participants
 	Deleting Transactions and Bill Lists
 
+
 Requirements
 Python 3.7+
 FastAPI
@@ -17,6 +20,7 @@ SQLAlchemy
 pydantic
 passlib
 SQLite (default database)
+
 
 Installation
 1.	Clone the repository:
@@ -30,10 +34,15 @@ source venv/bin/activate   # On Windows: venv\Scripts\activate
 3.	Install the required dependencies:
 pip install -r requirements.txt
 
+
+
 Running the Application
-1.	Start the FastAPI application:
+Start the FastAPI application:
 uvicorn main:app --reload
 The application will be available at http://127.0.0.1:8000.
+
+
+
 API Endpoints
 	User Endpoints
 	Create User
@@ -166,8 +175,13 @@ API Endpoints
     "participant2": 0.0
   }
 }
+
+
+
 Database
 The application uses SQLite as the default database. The database file (bill.db) will be created in the project directory. The database schema is defined using SQLAlchemy models.
+
+
 
 Note
 The provided code has a commented-out section that drops all data in the database. Be careful when using Base.metadata.drop_all(bind=engine) as it will delete all tables and their data.
