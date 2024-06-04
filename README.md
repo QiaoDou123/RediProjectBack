@@ -27,15 +27,15 @@ SQLite (default database)
 **Installation**
 
 1.	Clone the repository:
-git clone <repository_url>
-cd <repository_directory>
+   git clone <repository_url>
+   cd <repository_directory>
 
 2.	Create a virtual environment and activate it:
-python -m venv venv
-source venv/bin/activate   # On Windows: venv\Scripts\activate
+   python -m venv venv
+   source venv/bin/activate   # On Windows: venv\Scripts\activate
 
 3.	Install the required dependencies:
-pip install -r requirements.txt
+   pip install -r requirements.txt
 
 
 
@@ -49,7 +49,7 @@ The application will be available at http://127.0.0.1:8000.
 
 **API Endpoints**
 
-*User Endpoints*
+***User Endpoints***
 1. Create User
    
 -	POST /users/
@@ -77,7 +77,7 @@ The application will be available at http://127.0.0.1:8000.
   }
 ]
 
-*Bill List Endpoints*
+***Bill List Endpoints***
 
 1.	Create Bill List
    
@@ -148,7 +148,7 @@ The application will be available at http://127.0.0.1:8000.
   "detail": "Bill list deleted successfully"
 }
 
-*Transaction Endpoints*
+***Transaction Endpoints***
 
 1.	Create Transaction
    
@@ -203,7 +203,7 @@ The application will be available at http://127.0.0.1:8000.
   "detail": "Transaction deleted successfully"
 }
 
-*Balance Calculation Endpoint*
+***Balance Calculation Endpoint***
 
 1. Calculate Balance
 
