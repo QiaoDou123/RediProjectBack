@@ -5,12 +5,12 @@ Overview
 This FastAPI-based application is designed to help users manage and split bills among participants. The application allows users to create bill lists, add participants, record transactions, and calculate balances to ensure fair splitting of costs.
 
 Features
-	User Registration and Retrieval
-	Creation of Bill Lists
-	Adding Participants to Bill Lists
-	Adding and Updating Transactions
-	Calculating Balances among Participants
-	Deleting Transactions and Bill Lists
+User Registration and Retrieval
+Creation of Bill Lists
+Adding Participants to Bill Lists
+Adding and Updating Transactions
+Calculating Balances among Participants
+Deleting Transactions and Bill Lists
 
 
 Requirements
